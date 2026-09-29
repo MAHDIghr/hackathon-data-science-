@@ -1,0 +1,60 @@
+{
+  "NUMERIC_FEATURES": [
+    "sexM",
+    "age_at_diagnosis",
+    "age",
+    "time_since_diagnosis",
+    "ledd",
+    "time_since_intake_on",
+    "time_since_intake_off",
+    "on",
+    "off",
+    "prev_on",
+    "prev_off",
+    "delta_ledd",
+    "n_visit"
+  ],
+  "CATEGORICAL_FEATURES": [
+    "gene",
+    "cohort"
+  ],
+  "FLAG_FEATURES": [
+    "ledd_missing",
+    "on_missing",
+    "off_missing",
+    "both_scores"
+  ],
+  "ALL_FEATURES": [
+    "sexM",
+    "age_at_diagnosis",
+    "age",
+    "time_since_diagnosis",
+    "ledd",
+    "time_since_intake_on",
+    "time_since_intake_off",
+    "on",
+    "off",
+    "prev_on",
+    "prev_off",
+    "delta_ledd",
+    "n_visit",
+    "gene",
+    "cohort",
+    "ledd_missing",
+    "on_missing",
+    "off_missing",
+    "both_scores"
+  ],
+  "EXCLUDE": [
+    "Index",
+    "patient_id",
+    "target"
+  ],
+  "imputation_stats": {
+    "median_tsd_by_cohort": {
+      "A": 5.599999999999994,
+      "B": 3.9000000000000057
+    },
+    "global_median_tsd": 5.299999999999997
+  }
+}
